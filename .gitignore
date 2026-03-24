@@ -8,6 +8,7 @@ output/
 *.png
 
 # 原始数据文件（用户从 IMF 下载）
+data/raw/
 *.csv
 IMF*.csv
 IMF_WEO*.csv
