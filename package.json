@@ -1,0 +1,28 @@
+{
+  "name": "imf-weo-analyzer",
+  "version": "1.1.0",
+  "description": "IMF World Economic Outlook Database Analyzer - 数据查询、计算、可视化（v1.1.0 新增数据表格和 CSV 下载）",
+  "main": "src/index.js",
+  "scripts": {
+    "build-index": "node src/build-index.js",
+    "query": "node src/index.js",
+    "test": "node examples/test.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "imf",
+    "weo",
+    "economic data",
+    "macroeconomics",
+    "data analysis",
+    "visualization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

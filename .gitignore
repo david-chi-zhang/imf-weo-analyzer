@@ -1,0 +1,22 @@
+# 依赖
+node_modules/
+
+# 输出文件
+output/
+*.html
+*.csv
+*.png
+
+# 索引数据文件（较大，可以重新生成）
+data/series.json
+
+# 日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
